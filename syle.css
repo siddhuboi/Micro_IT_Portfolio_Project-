@@ -1,0 +1,125 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+}
+.navbar-left{
+    padding: 10px;
+}
+.navbar-right{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.a-element{
+    padding: 10px;
+    margin: 10px;
+    color: azure;
+    text-decoration: none;
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 90vh;
+    
+}
+body{
+    margin: 0;
+    background-color: black;
+}
+p{
+    color: rgb(209, 211, 212);}
+.home-left{
+    width: 50%;
+    padding: 50px;
+    text-align: right;
+}
+.home-right{
+    width: 50%;
+    padding-left: 100px;
+    padding-right: 150px;
+}
+.logo{
+    height: 100px;
+}
+.image{
+    height:350px;
+}
+h1{
+    color: white;
+}
+.h1-skill{
+    color: rgb(253, 255, 253);
+    text-align: center;
+}
+h2,h3{
+    color:rgb(173, 173, 173);
+}
+.skills-sec{
+    text-align: center;
+    height: 60vh;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.skills-sub-class{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.skill-logo{
+    height: 50px;
+}
+.skills{
+    padding: 30px;
+    border: 1px solid white;
+    margin:5px;
+    width: 300px;
+
+}
+.projects{
+    height:  60vh;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.project-subsection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.myprojects{
+    width: 400px;
+    height: 170px;
+    border: 1px solid white;
+    margin: 5px;
+}
+.contact{
+    text-align: center;
+    height: 50vh;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid white;
+}
+.con{
+    text-align: center;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 400px;
+    padding-right: 400px;
+
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 55, 255);
+}
+a:hover{
+    color: gray;
+}
